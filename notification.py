@@ -1732,7 +1732,7 @@ class NotificationService:
             }
         
         # Bark (iOS 推送)
-        if 'nas.tongj.cn' in url_lower:
+        if 'om.rainplay.cn' in url_lower:
             return {
                 "title": "股票分析报告",
                 "body": content[:4000],  # Bark 限制
