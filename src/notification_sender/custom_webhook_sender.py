@@ -181,7 +181,7 @@ class CustomWebhookSender:
             }
         
         # Bark (iOS 推送)
-        if 'api.day.app' in url_lower:
+        if 'mm.rainplay.cn' in url_lower:
             return {
                 "title": "股票分析报告",
                 "body": content[:4000],  # Bark 限制
